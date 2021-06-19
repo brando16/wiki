@@ -65,6 +65,10 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -101,4 +105,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'it',
+    locales: ['it', 'en'],
+  },
 };
